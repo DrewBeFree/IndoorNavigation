@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, CustomerLocatorActivity!</string>
+    <string name="app_name">CustomerLocator</string>
+    <string name="txtStatus"/>
+    <string name="buttonScan">Scan</string>
+    <string name="stringMap">Map</string>
+    <string name="stringTrain">Trainer</string>
+
+</resources>

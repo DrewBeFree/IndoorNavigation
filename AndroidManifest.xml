@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="android.prototype"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk android:minSdkVersion="8" />
+	<uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+  	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+	<uses-permission android:name="android.permission.CHANGE_NETWORK_STATE"/>
+	<uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+	<uses-permission android:name="android.permission.INTERNET" />
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name" >
+        <activity
+            android:name=".MapActivity"
+            />
+		<activity
+   			android:name="android.prototype.trainer.Map"
+    		/>
+        <activity
+            android:name="android.prototype.trainer.TrainerActivity" 
+            />
+        <activity
+            android:name="android.prototype.trainer.TrackerwithProduct"
+            />
+        <activity
+            android:name="android.prototype.tracker.DisplayMapActivity" >
+           </activity>
+        <activity 
+            android:name="android.prototype.trainer.ListFilesActivity"
+            />
+       <activity 
+           android:name="android.prototype.trainer.SearchActivity"></activity>
+               
+       <activity 
+            android:name=".trainer.Tracker"
+            />
+
+           
+        <activity
+            android:name=".DBActivity"
+            />
+        
+        <activity
+            android:name=".trainer.AndroidWifiMonitor"
+            android:label="@string/app_name" >
+            <intent-filter>     
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+
+        </activity>
+    </application>
+
+</manifest>
